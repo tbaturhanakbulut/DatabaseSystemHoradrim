@@ -1,0 +1,32 @@
+list type
+create type plant 3 3 age int color str id int
+create type castely 4 3 age int color str id int domestic str
+create type mircastely 5 3 age int color str id int domestic str rootType str
+create type fybranite 4 3 age int color str id int soilType str
+create type fybran 5 3 age int color str id int soilType str barkColor str
+create type animal 4 1 name str age int height int weight int
+create type sentoru 5 1 id int age int height int weight int legCount int
+create type bosentoru 6 1 id int age int height int weight int legCount int hornDensity int
+list type
+create record mircastely 2 yellow 1 yes liquid
+create record mircastely 3 green 3 no liquid
+create record mircastely 2 yellow 2 yes noliquid
+create record castely 1 blue 3 no
+create record castely 3 blue 5 yes
+create record castely 2 brown 4 no
+create record fybranite 3 brown 7 ironoxide
+create record fybranite 1 brown 6 swamp
+create record fybranite 2 black 9 sulphuric
+create record fybran 4 black 11 sulphuric brown
+create record fybran 2 brown 13 ironoxide brown
+create record bosentoru 21 4 500 1000 8 25
+create record bosentoru 24 7 900 14000 8 41
+create record bosentoru 22 3 400 900 6 16
+create record bosentoru 23 1 200 400 6 3
+create record sentoru 25 2 300 750 6
+create record sentoru 26 4 450 1150 8
+list record bosentoru
+filter record sentoru id>25
+list record plant
+list record animal
+update record sentoru 25 25 4 600 3750 8

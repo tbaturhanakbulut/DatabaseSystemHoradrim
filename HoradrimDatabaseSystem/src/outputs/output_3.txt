@@ -1,0 +1,19 @@
+1 brown 6 swamp
+3 brown 7 ironoxide
+2 black 9 sulphuric
+1 brown 6 swamp
+3 brown 7 ironoxide
+2 yellow 1 yes liquid
+2 yellow 2 yes noliquid
+3 green 3 no liquid
+animal
+bosentoru
+fybran
+fybranite
+human
+kitunian
+mircastely
+plant
+sentoru
+24 7 900 14000 8 41
+Findik 1 20 1 yellow 0

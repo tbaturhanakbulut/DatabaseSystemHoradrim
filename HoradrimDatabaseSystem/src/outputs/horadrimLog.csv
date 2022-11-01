@@ -1,0 +1,80 @@
+1655368210,create type animal 4 1 name str age int height int weight int,success
+1655368210,create type human 6 1 name str age int height int weight int alias str occupation str,success
+1655368210,create record human MarkWebbler 27 178 81 Shadow engineer,success
+1655368210,list record human,success
+1655368210,list record animal,failure
+1655368210,create type animal,failure
+1655368210,create record human JaneBradley 24 171 61 Leaf doctor,success
+1655368210,list record human,success
+1655368210,create record human JonathanByn 20 190 88 Raw mechanic,success
+1655368210,list record human,success
+1655368210,create type kitunian 6 1 name str age int height int weight int color str fangCount int,success
+1655368210,create record kitunian MrsEvangeline 2 40 3 black 4,success
+1655368210,create record kitunian MrEvangeline 1 32 2 black 2,success
+1655368210,create record kitunian RopeHunter 2 38 4 blue 4,success
+1655368210,create record kitunian Findik 1 20 1 yellow 0,success
+1655368210,create record kitunian Meercat 3 43 4 blue 6,success
+1655368210,list record kitunian,success
+1655368210,filter record human name>Jon,success
+1655368210,update record human JonathanByn JonathanByn 30 190 83 Raw mechanic,success
+1655368210,list type,success
+1655368210,search record kitunian Findik,success
+1655368210,create type centifyren 5 1 name str age int height int weight int flameColor str,success
+1655368210,create record centifyren CFG7 2 100 4 golden,success
+1655368210,create record centifyren CFB3 3 140 7 black,success
+1655368210,list record centifyren,success
+1655368210,delete record centifyren CFG7,success
+1655368210,list record centifyren,success
+1655368210,list type,success
+1655368210,delete type centifyren,success
+1655368210,list type,success
+1655368210,delete type centifyren,failure
+1655368210,delete record kitunian JonathanByn,failure
+1655368237,list type,success
+1655368237,create type plant 3 3 age int color str id int,success
+1655368237,create type castely 4 3 age int color str id int domestic str,success
+1655368237,create type mircastely 5 3 age int color str id int domestic str rootType str,success
+1655368237,create type fybranite 4 3 age int color str id int soilType str,success
+1655368237,create type fybran 5 3 age int color str id int soilType str barkColor str,success
+1655368237,create type animal 4 1 name str age int height int weight int,failure
+1655368237,create type sentoru 5 1 id int age int height int weight int legCount int,success
+1655368237,create type bosentoru 6 1 id int age int height int weight int legCount int hornDensity int,success
+1655368237,list type,success
+1655368237,create record mircastely 2 yellow 1 yes liquid,success
+1655368237,create record mircastely 3 green 3 no liquid,success
+1655368238,create record mircastely 2 yellow 2 yes noliquid,success
+1655368238,create record castely 1 blue 3 no,success
+1655368238,create record castely 3 blue 5 yes,success
+1655368238,create record castely 2 brown 4 no,success
+1655368238,create record fybranite 3 brown 7 ironoxide,success
+1655368238,create record fybranite 1 brown 6 swamp,success
+1655368238,create record fybranite 2 black 9 sulphuric,success
+1655368238,create record fybran 4 black 11 sulphuric brown,success
+1655368238,create record fybran 2 brown 13 ironoxide brown,success
+1655368238,create record bosentoru 21 4 500 1000 8 25,success
+1655368238,create record bosentoru 24 7 900 14000 8 41,success
+1655368238,create record bosentoru 22 3 400 900 6 16,success
+1655368238,create record bosentoru 23 1 200 400 6 3,success
+1655368238,create record sentoru 25 2 300 750 6,success
+1655368238,create record sentoru 26 4 450 1150 8,success
+1655368238,list record bosentoru,success
+1655368238,filter record sentoru id>25,success
+1655368238,list record plant,failure
+1655368238,list record animal,failure
+1655368238,update record sentoru 25 25 4 600 3750 8,success
+1655368265,list record fybranite,success
+1655368265,delete record fybranite 9,success
+1655368265,list record fybranite,success
+1655368265,list record mircastely,success
+1655368265,delete type castely,success
+1655368265,list type,success
+1655368265,search record bosentoru 24,success
+1655368265,search record kitunian Findik,success
+1655368310,list record fybran,success
+1655368310,search record fybranite 7,success
+1655368310,update record fybran 11 4 blue 11 sulphuric yellow,success
+1655368310,list record bosentoru,success
+1655368310,list record kitunian,success
+1655368310,list record human,success
+1655368310,filter record fybran id=11,success
+1655368310,list type,success

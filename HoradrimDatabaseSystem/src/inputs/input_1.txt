@@ -1,0 +1,32 @@
+create type animal 4 1 name str age int height int weight int
+create type human 6 1 name str age int height int weight int alias str occupation str
+create record human MarkWebbler 27 178 81 Shadow engineer
+list record human
+list record animal
+create type animal
+create record human JaneBradley 24 171 61 Leaf doctor
+list record human
+create record human JonathanByn 20 190 88 Raw mechanic
+list record human
+create type kitunian 6 1 name str age int height int weight int color str fangCount int
+create record kitunian MrsEvangeline 2 40 3 black 4
+create record kitunian MrEvangeline 1 32 2 black 2
+create record kitunian RopeHunter 2 38 4 blue 4
+create record kitunian Findik 1 20 1 yellow 0
+create record kitunian Meercat 3 43 4 blue 6
+list record kitunian
+filter record human name>Jon
+update record human JonathanByn JonathanByn 30 190 83 Raw mechanic
+list type
+search record kitunian Findik
+create type centifyren 5 1 name str age int height int weight int flameColor str
+create record centifyren CFG7 2 100 4 golden
+create record centifyren CFB3 3 140 7 black
+list record centifyren
+delete record centifyren CFG7
+list record centifyren
+list type
+delete type centifyren
+list type
+delete type centifyren
+delete record kitunian JonathanBynx

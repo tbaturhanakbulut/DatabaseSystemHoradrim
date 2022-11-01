@@ -1,0 +1,25 @@
+4 black 11 sulphuric brown
+2 brown 13 ironoxide brown
+3 brown 7 ironoxide
+21 4 500 1000 8 25
+22 3 400 900 6 16
+23 1 200 400 6 3
+24 7 900 14000 8 41
+Findik 1 20 1 yellow 0
+Meercat 3 43 4 blue 6
+MrEvangeline 1 32 2 black 2
+MrsEvangeline 2 40 3 black 4
+RopeHunter 2 38 4 blue 4
+JaneBradley 24 171 61 Leaf doctor
+JonathanByn 30 190 83 Raw mechanic
+MarkWebbler 27 178 81 Shadow engineer
+4 blue 11 sulphuric yellow
+animal
+bosentoru
+fybran
+fybranite
+human
+kitunian
+mircastely
+plant
+sentoru
